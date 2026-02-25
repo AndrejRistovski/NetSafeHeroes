@@ -3,11 +3,11 @@
 > Едукативна 2D игра направена во **Godot 4** која има имплементирано реални основи на сајбер-безбедност преку стилот на гејмплеј + кратки квиз прашања.
 ---
 ## Слики 
-![Gameplay Screenshot 1](screenshot1.png)
-![Gameplay Screenshot 1](screenshot2.png)
-![Gameplay Screenshot 1](screenshot3.png)
-![Gameplay Screenshot 1](screenshot4.png)
-![Gameplay Screenshot 1](screenshot5.png)
+![Gameplay Screenshot 1](/images/screenshot1.png)
+![Gameplay Screenshot 1](/images/screenshot2.png)
+![Gameplay Screenshot 1](images/screenshot3.png)
+![Gameplay Screenshot 1](images/screenshot4.png)
+![Gameplay Screenshot 1](images/screenshot5.png)
 ---
 
 ## Опис
