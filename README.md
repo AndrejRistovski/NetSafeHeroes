@@ -1,26 +1,7 @@
-<p align="center">
-  <img src="images/screenshot1.png" alt="NetSafe Heroes Banner" width="820">
-</p>
-
 <h1 align="center">NetSafe Heroes 🛡️</h1>
 
 <p align="center">
   <b>Godot 4</b> pixel-art educational game that teaches real cybersecurity basics through gameplay + short quizzes.
-</p>
-
-<p align="center">
-  <a href="https://andrejristovski.github.io/NetSafeHeroes/"><b>▶ Play in Browser</b></a>
-  &nbsp;•&nbsp;
-  <a href="#net-safe-heroes-македонски-️"><b>MK</b></a>
-  &nbsp;•&nbsp;
-  <a href="#net-safe-heroes-english-️"><b>EN</b></a>
-</p>
-
-<p align="center">
-  <img alt="Godot" src="https://img.shields.io/badge/Godot-4.x-478cbf?logo=godot-engine&logoColor=white">
-  <img alt="Platform" src="https://img.shields.io/badge/Platform-Web%20%7C%20Windows%20%7C%20Mac%20%7C%20Linux-111111">
-  <img alt="Genre" src="https://img.shields.io/badge/Genre-Education%20%2B%20Platformer-111111">
-  <img alt="Language" src="https://img.shields.io/badge/Languages-MK%20%7C%20EN-111111">
 </p>
 
 ---
@@ -113,7 +94,7 @@ Each level ends with a short **cybersecurity quiz** — your knowledge directly 
 > **Забелешка:** Веб-верзијата е оптимизирана само за **1280 × 720**.
 
 ## Опис 📚
-NetSafe Heroes е едукативна игра каде херојот влегува во компјутерски систем и се бори против дигитални закани (adware, phishing, spyware, trojan, ransomware). По секое ниво следи **квиз прашање** што го зајакнува знаењето за интернет безбедност и влијае на животите.
+NetSafe Heroes е едукативна игра во која херојот влегува во компјутерски систем и се бори со вируси и дигитални чудовишта за да го обнови и заштити. Како што играчот напредува низ нивоата, тој се среќава со различни сајбер закани како што се рекламни програми, фишинг стапици, шпионски софтвер, тројански коњи и рансомвер. Со завршувањето на секое ниво, играчот не само што го чисти системот, туку и учи основни концепти за безбедност на интернет преку интерактивна игра. По секое ниво, играчот одговара на кратко прашање дизајнирано да го зајакне знаењето за сајбер-безбедноста, помагајќи му да препознае сомнителни врски, да разбере вообичаени онлајн закани и да изгради побезбедни навики додека го користи интернетот.
 
 ## Главна механика (Квиз → Животи) ❤️
 - ✅ Точен одговор: **+1 живот**
@@ -131,7 +112,7 @@ NetSafe Heroes е едукативна игра каде херојот влег
 > **Note:** Web build is optimized only for **1280 × 720**.
 
 ## Description 📚
-NetSafe Heroes is an educational game where the hero enters a computer system and fights digital threats (adware, phishing, spyware, trojans, ransomware). After each level, a short **quiz question** reinforces cybersecurity knowledge and directly impacts your lives.
+NetSafe Heroes is a pixel-art educational game in which the hero enters a computer system and battles viruses and digital monsters to restore and protect it. As the player progresses through the levels, they encounter different cyber threats such as adware, phishing traps, spyware, trojan horses, and ransomware. By completing each level, the player not only cleans the system but also learns essential internet safety concepts through interactive gameplay. After every level, the player answers a short question designed to reinforce cybersecurity knowledge, helping them recognize suspicious links, understand common online threats, and build safer habits while using the internet.
 
 ## Main Mechanic (Quiz → Lives) ❤️
 - ✅ Correct answer: **+1 life**
