@@ -11,7 +11,7 @@
 ---
 
 ## Опис
-Секоe ниво претставува различна закана (рекламен софтвер, фишинг, шпионски софтвер, тројански коњ, рансомвер). Играчот го поминува нивото, а потоа одговара на кратко прашање за да го подобри своето знаење за сајбер безбедноста.
+NetSafe Heroes е едукативна игра со пиксел-арт во која херојот влегува во компјутерски систем и се бори против вируси и дигитални чудовишта за да го обнови и заштити системот. Како што играчот напредуваат низ нивоата, тој се среќава со различни сајбер закани како што се рекламен софтвер, фишинг стапици, шпионски софтвер, тројански коњи и рансомвер. Со завршувањето на секое ниво, играчот не само што го чисти системот, туку и учи основни концепти за безбедност на интернет. По секое ниво, играчот одговара на кратко прашање дизајнирано да го зајакне знаењето за сајбер безбедност, помагајќи му да препознае сомнителни врски, да разбере вообичаени онлајн закани и да изгради побезбедни навики за навигација на интернет.
 
 ### Главна едукативна механика (Квиз → Животи)
 По завршување на секое ниво се појавува **Прашање**:
@@ -72,7 +72,7 @@
 ---
 
 ## Description
-Each level presents a different threat (adware, phishing, spyware, trojan horse, ransomware). The player completes the level and then answers a short question to improve their cybersecurity knowledge.
+NetSafe Heroes is a pixel-art educational game in which the hero enters a computer system and battles viruses and digital monsters to restore and protect the system. As the player progresses through the levels, he encounters different cyber threats such as adware, phishing, spyware, trojan horses, and ransomware. By completing each level, the player not only cleans the system but also learns essential internet safety concepts through interactive gameplay. After every level, the player answers a short question designed to reinforce cybersecurity knowledge, helping him recognize suspicious links, understand common online threats, and build safer habits for navigating the internet.
 
 ### Main Educational Mechanics (Quiz → Lives)
 After completing each level, a **Question** appears:
