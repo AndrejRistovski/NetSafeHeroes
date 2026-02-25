@@ -1,121 +1,141 @@
+<p align="center">
+  <img src="images/screenshot1.png" alt="NetSafe Heroes Banner" width="820">
+</p>
+
+<h1 align="center">NetSafe Heroes 🛡️</h1>
+
+<p align="center">
+  <b>Godot 4</b> pixel-art educational game that teaches real cybersecurity basics through gameplay + short quizzes.
+</p>
+
+<p align="center">
+  <a href="https://andrejristovski.github.io/NetSafeHeroes/"><b>▶ Play in Browser</b></a>
+  &nbsp;•&nbsp;
+  <a href="#net-safe-heroes-македонски-️"><b>MK</b></a>
+  &nbsp;•&nbsp;
+  <a href="#net-safe-heroes-english-️"><b>EN</b></a>
+</p>
+
+<p align="center">
+  <img alt="Godot" src="https://img.shields.io/badge/Godot-4.x-478cbf?logo=godot-engine&logoColor=white">
+  <img alt="Platform" src="https://img.shields.io/badge/Platform-Web%20%7C%20Windows%20%7C%20Mac%20%7C%20Linux-111111">
+  <img alt="Genre" src="https://img.shields.io/badge/Genre-Education%20%2B%20Platformer-111111">
+  <img alt="Language" src="https://img.shields.io/badge/Languages-MK%20%7C%20EN-111111">
+</p>
+
+---
+
+## Quick Play 🎮
+
+🔗 **Play in Browser:** https://andrejristovski.github.io/NetSafeHeroes/  
+> **Note:** Web build is optimized for **1280 × 720** only.
+
+---
+
+## What is NetSafe Heroes? ✨
+
+NetSafe Heroes is a **pixel-art educational 2D game** where you enter a computer system and fight digital threats to restore and protect it.  
+Each level ends with a short **cybersecurity quiz** — your knowledge directly affects your survival.
+
+---
+
+## Gameplay Loop 🔁
+
+**Level → Reach Finish → Quiz → Lives Update → Next Level / Game Over**
+
+### Core Mechanic: Quiz → Lives ❤️
+- ✅ Correct answer: **+1 life**
+- ❌ Incorrect answer: **-1 life**
+- 💀 0 lives: **Game Over**
+
+---
+
+## Levels & Threats 🧩
+
+| Level | Threat |
+|------|--------|
+| **Pop-up Plaza** | Adware |
+| **Phishing Pits** | Phishing Traps |
+| **Spyware Shadows** | Spyware |
+| **Trojan Trickroom** | Trojan Horse |
+| **Ransomware Throne** | Ransomware |
+
+---
+
+## Controls 🕹️
+
+- **Move:** Arrow Keys (**↑ ↓ ← →**) or **W A S D**
+- **Jump:** **Space**
+- **Enter:** confirm/close question panels (when shown)
+- **Esc:** pause menu  
+- **Info/Rules:** displayed separately on each level
+
+---
+
+## Screenshots 📸
+
+<p align="center">
+  <img src="images/screenshot1.png" width="420" />
+  <img src="images/screenshot2.png" width="420" />
+</p>
+<p align="center">
+  <img src="images/screenshot3.png" width="420" />
+  <img src="images/screenshot4.png" width="420" />
+</p>
+<p align="center">
+  <img src="images/screenshot5.png" width="860" />
+</p>
+
+---
+
+## Run from Source ⚙️
+
+1. Install **Godot 4.5.x** (or any compatible Godot 4 version)
+2. Open the project folder in Godot
+3. Press **Play (F5)**
+
+---
+
+## Tech Notes 🧠
+
+- **Engine:** Godot 4 (GDScript)
+- **UI Panels:** `DescriptionPanel` (level info), `QuestionPanel` (quiz), `PauseMenu`
+- **Flow:** Level → Finish Trigger → Question Panel → +/- Life → Next / Game Over
+
+---
+
 # NetSafe Heroes (Македонски) 🛡️
-> Едукативна 2D игра направена во **Godot 4** која има имплементирано реални основи на сајбер-безбедност преку стилот на гејмплеј + кратки квиз прашања.
----
 
-## Играј во прелистувач
-🔗 [Кликни тука за да ја играш NetSafe Heroes во веб-прелистувач](https://andrejristovski.github.io/NetSafeHeroes/)
-**Забелешка:** Веб-верзијата е оптимизирана само за резолуција **1280 x 720 пиксели**.
----
+> Едукативна 2D пиксел-арт игра во **Godot 4** што учи реални основи на сајбер-безбедност преку гејмплеј + кратки квиз прашања.
 
-## Слики 
-![Gameplay Screenshot 1](images/screenshot1.png)
-![Gameplay Screenshot 1](images/screenshot2.png)
-![Gameplay Screenshot 1](images/screenshot3.png)
-![Gameplay Screenshot 1](images/screenshot4.png)
-![Gameplay Screenshot 1](images/screenshot5.png)
----
+## Играј во прелистувач 🌐
+🔗 https://andrejristovski.github.io/NetSafeHeroes/  
+> **Забелешка:** Веб-верзијата е оптимизирана само за **1280 × 720**.
 
-## Опис
-NetSafe Heroes е едукативна игра со пиксел-арт во која херојот влегува во компјутерски систем и се бори против вируси и дигитални чудовишта за да го обнови и заштити системот. Како што играчот напредуваат низ нивоата, тој се среќава со различни сајбер закани како што се рекламен софтвер, фишинг стапици, шпионски софтвер, тројански коњи и рансомвер. Со завршувањето на секое ниво, играчот не само што го чисти системот, туку и учи основни концепти за безбедност на интернет. По секое ниво, играчот одговара на кратко прашање дизајнирано да го зајакне знаењето за сајбер безбедност, помагајќи му да препознае сомнителни врски, да разбере вообичаени онлајн закани и да изгради побезбедни навики за навигација на интернет.
+## Опис 📚
+NetSafe Heroes е едукативна игра каде херојот влегува во компјутерски систем и се бори против дигитални закани (adware, phishing, spyware, trojan, ransomware). По секое ниво следи **квиз прашање** што го зајакнува знаењето за интернет безбедност и влијае на животите.
 
-### Главна едукативна механика (Квиз → Животи)
-По завршување на секое ниво се појавува **Прашање**:
+## Главна механика (Квиз → Животи) ❤️
 - ✅ Точен одговор: **+1 живот**
 - ❌ Неточен одговор: **-1 живот**
 - 💀 0 животи: **Играта заврши**
 
-Ова прави учењето директно да влијае на прогресијата во играта.
----
-
-## Нивоа и закани
-1. **Pop-up Plaza** — Рекламен софтвер
-2. **Phishing Pits** — Фишинг стапици  
-3. **Spyware Shadows** — Шпионски софтвер  
-4. **Trojan Trickroom** — Тројански коњ  
-5. **Ransomware Throne** — Рансомвер  
----
-
-## Како се игра
-### Цел
-Помини го нивото (избегнувај закани/пречки), стигни до крај, па одговори на прашањето за да ги задржиш/зголемиш животите.
-
-### Контроли
-- **Движење:** Arrow Keys (**↑ ↓ ← →**) или **W A S D**
-- **Скок:** **Space** копчето
-- **Инфо / Правила**: се прикажуваат на секое ниво посевно
-- **Enter:** потврди/затвори панели за прашања (кога се прикажани)
-- **Esc:** мени за пауза
----
-
-## Инсталација и стартување (од изворен код)
-1. Инсталирај **Godot 4.5.x** (или компатибилна Godot 4 верзија)
-2. Отвори го проект фолдерот во Godot
-3. Притисни **Play (F5)**
----
-
-## Кратка техничка документација
-- **Engine:** Godot 4 (GDScript)  
-- **UI панели:** DescriptionPanel (инфо за ниво), Question Panel (квиз), Pause menu  
-- **Flow:** Level → Finish trigger → Question Panel → +/- life → Next / Game Over
 ---
 
 # NetSafe Heroes (English) 🛡️
-> An educational 2D game made in **Godot 4** that implements real-world cybersecurity fundamentals through gameplay style + short quiz questions.
----
 
-## Play in Browser
-🔗 [Click here to play NetSafe Heroes in your browser](https://andrejristovski.github.io/NetSafeHeroes/)
-**Note:** The web version is optimized only for **1280 x 720 pixels** resolution.
----
+> An educational 2D pixel-art game in **Godot 4** that teaches real cybersecurity fundamentals via gameplay + short quizzes.
 
-## Images
-![Gameplay Screenshot 1](images/screenshot1.png)
-![Gameplay Screenshot 1](images/screenshot2.png)
-![Gameplay Screenshot 1](images/screenshot3.png)
-![Gameplay Screenshot 1](images/screenshot4.png)
-![Gameplay Screenshot 1](images/screenshot5.png)
----
+## Play in Browser 🌐
+🔗 https://andrejristovski.github.io/NetSafeHeroes/  
+> **Note:** Web build is optimized only for **1280 × 720**.
 
-## Description
-NetSafe Heroes is a pixel-art educational game in which the hero enters a computer system and battles viruses and digital monsters to restore and protect the system. As the player progresses through the levels, he encounters different cyber threats such as adware, phishing, spyware, trojan horses, and ransomware. By completing each level, the player not only cleans the system but also learns essential internet safety concepts through interactive gameplay. After every level, the player answers a short question designed to reinforce cybersecurity knowledge, helping him recognize suspicious links, understand common online threats, and build safer habits for navigating the internet.
+## Description 📚
+NetSafe Heroes is an educational game where the hero enters a computer system and fights digital threats (adware, phishing, spyware, trojans, ransomware). After each level, a short **quiz question** reinforces cybersecurity knowledge and directly impacts your lives.
 
-### Main Educational Mechanics (Quiz → Lives)
-After completing each level, a **Question** appears:
+## Main Mechanic (Quiz → Lives) ❤️
 - ✅ Correct answer: **+1 life**
 - ❌ Incorrect answer: **-1 life**
-- 💀 0 lives: **Game over**
+- 💀 0 lives: **Game Over**
 
-This makes learning directly affect the progression in the game.
----
-
-## Levels and Threats
-1. **Pop-up Plaza** — Adware
-2. **Phishing Pits** — Phishing Traps
-3. **Spyware Shadows** — Spyware
-4. **Trojan Trickroom** — Trojan Horse
-5. **Ransomware Throne** — Ransomware
----
-
-## How to Play
-### Objective
-Pass the level (avoid threats/obstacles), reach the end, then answer the question to keep/increase lives.
-
-### Controls
-- **Movement:** Arrow Keys (**↑ ↓ ← →**) or **W A S D**
-- **Jump:** **Space** key
-- **Info / Rules**: displayed on each level separately
-- **Enter:** confirm/close question panels (when displayed)
-- **Esc:** pause menu
----
-
-## Installation and Startup (from source code)
-1. Install **Godot 4.5.x** (or compatible Godot 4 version)
-2. Open the project folder in Godot
-3. Press **Play (F5)**
----
-
-## Short Technical Documentation
-- **Engine:** Godot 4 (GDScript)
-- **UI Panels:** DescriptionPanel (level info), Question Panel (quiz), Pause menu
-- **Flow:** Level → Finish trigger → Question Panel → +/- life → Next / Game Over
 ---
