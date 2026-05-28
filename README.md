@@ -1,167 +1,190 @@
-# NetSafe Heroes (English) 🛡️
+# NetSafe Heroes 🛡️
 
-> A Godot 4 pixel-art educational game that teaches real cybersecurity basics through gameplay and short quizzes.
-
----
-
-## Quick Play
-
-[Play NetSafe Heroes in Browser](https://andrejristovski.github.io/NetSafeHeroes/)
-
-**Note:** The web build is optimized for **1280 × 720** resolution only.
+> Едукативна 2D пиксел-арт игра во Godot 4 инспирирана од истражувањата на HBSC студијата, која ги учи младите (11–15 години) на основите на сајбер-безбедноста преку гејмплеј и квиз-прашања.
 
 ---
 
-## What Is NetSafe Heroes?
+## 🎮 Играј ја играта
 
-NetSafe Heroes is a pixel-art educational 2D game where the player enters a computer system and fights digital threats to restore and protect it.
+**[▶ Играј во прелистувач (Web Build)](https://andrejristovski.github.io/NetSafeHeroes/)**
 
-As the player progresses through the levels, they encounter different cybersecurity threats such as adware, phishing traps, spyware, trojan horses, and ransomware. After each level, the player answers a short quiz question designed to reinforce cybersecurity knowledge and build safer online habits.
-
----
-
-## Gameplay Loop
-
-**Level → Reach Finish → Quiz → Lives Update → Next Level / Game Over**
-
-### Core Mechanic: Quiz → Lives
-
-- ✅ Correct answer: **+1 life**
-- ❌ Incorrect answer: **-1 life**
-- 💀 0 lives: **Game Over**
-
-Your knowledge directly affects your survival and progression.
+> Веб-верзијата е оптимизирана за резолуција на екран **1280 × 720**!
 
 ---
 
-## Levels and Threats
+## 📚 Инспирација и истражувачка основа (HBSC)
 
-| Level | Threat |
-| --- | --- |
-| **Pop-up Plaza** | Adware |
-| **Phishing Pits** | Phishing Traps |
-| **Spyware Shadows** | Spyware |
-| **Trojan Trickroom** | Trojan Horse |
-| **Ransomware Throne** | Ransomware |
+Оваа игра е инспирирана од истражувањата на **HBSC студијата** (Health Behaviour in School-aged Children) — меѓународно истражување за здравјето, навиките и добросостојбата на младите на возраст од 11 до 15 години, спроведувано на секои 4 години во соработка со WHO/Europe.
 
----
+### Клучни наоди од HBSC 2021/2022
 
-## Controls
+Според **HBSC Vol. 2 (2024) — Peer Violence and Bullying** извештајот:
 
-- **Move:** Arrow Keys (**↑ ↓ ← →**) or **W A S D**
-- **Jump:** **Space**
-- **Enter:** Confirm / close question panels (when shown)
-- **Esc:** Pause menu
-- **Info / Rules:** Displayed separately on each level
+- **16% од адолесцентите** пријавуваат дека биле жртви на сајбер-булинг (пораст од 13% во 2018).
+- **12% од адолесцентите** пријавуваат дека вршат сајбер-булинг (14% момчиња, 9% девојчиња).
+- Сајбер-булингот и дигиталните закани се зголемуваат паралелно со дигитализацијата на интеракциите меѓу младите.
 
----
+Во **Северна Македонија** специфично, националниот HBSC извештај (поддржан од UNFPA, објавен јуни 2025) покажува дека **секој шести ученик** доживува сајбер-булинг, а **секој десетти** — традиционален булинг во училиште.
 
-## Screenshots
+### Извори
 
-![Gameplay Screenshot 1](images/screenshot1.png)
-![Gameplay Screenshot 2](images/screenshot2.png)
-![Gameplay Screenshot 3](images/screenshot3.png)
-![Gameplay Screenshot 4](images/screenshot4.png)
-![Gameplay Screenshot 5](images/screenshot5.png)
+- [HBSC International Study](https://hbsc.org/)
+- [MK HBSC Platform](https://www.mkhbsc.com)
+- [HBSC Data Browser — Cyberbullying](https://data-browser.hbsc.org/measure/cyberbullying-being-bullied/)
+- [UNFPA North Macedonia — Rise in Peer Violence (2025)](https://northmacedonia.unfpa.org/en/news/rise-peer-violence-among-schoolchildren-north-macedonia-unfpa-supported-study-reveals)
 
 ---
 
-## Run from Source
+## 🎯 Проблем и цел
 
-1. Install **Godot 4.5.x** (or any compatible Godot 4 version)
-2. Open the project folder in Godot
-3. Press **Play (F5)**
+### Кој проблем го адресираме?
 
----
+HBSC податоците покажуваат дека младите се сè повеќе изложени на дигитални закани — од фишинг и малвер до сајбер-булинг — но **немаат доволно практично знаење** за да ги препознаат и избегнат. Стандардната едукација за сајбер-безбедност е најчесто пасивна (читање текст, гледање презентации), што не е привлечно за младинска публика.
 
-## Technical Notes
+### За која целна група?
 
-- **Engine:** Godot 4 (GDScript)
-- **UI Panels:** `DescriptionPanel` (level info), `QuestionPanel` (quiz), `PauseMenu`
-- **Flow:** Level → Finish Trigger → Question Panel → +/- Life → Next Level / Game Over
+Деца и адолесценти на возраст **11–15 години** (HBSC целна возрасна група), со фокус на ученици кои ја започнуваат самостојната употреба на интернет и дигитални уреди.
 
----
+### Како функционира решението?
 
-# NetSafe Heroes (Македонски) 🛡️
+**NetSafe Heroes** ги учи младите на реални сајбер закани преку **learning-through-play** пристап:
 
-> Едукативна 2D пиксел-арт игра во Godot 4 што учи реални основи на сајбер-безбедност преку гејмплеј и кратки квиз прашања.
+1. Играчот навлегува во компјутерски систем и се бори против дигитални закани.
+2. Секое ниво е тематски поврзано со конкретна сајбер закана (adware, phishing, spyware, trojan, ransomware).
+3. Пред секое ниво, играчот добива **едукативен опис** на заканата.
+4. По секое ниво, играчот одговара на **квиз-прашање** кое го тестира стекнатото знаење.
+5. Точните одговори = повеќе животи; неточните = помалку. **Знаењето директно влијае на преживувањето.**
 
----
+### Очекуван импакт
 
-## Играј во прелистувач
-
-[Играј ја NetSafe Heroes во веб-прелистувач](https://andrejristovski.github.io/NetSafeHeroes/)
-
-**Забелешка:** Веб-верзијата е оптимизирана само за резолуција **1280 × 720**.
+- Подигнување на свесноста за конкретни сајбер закани кај младите.
+- Практично учење наместо пасивно — играчот *чувствува* последици од неправилни одлуки.
+- Промовирање на безбедни дигитални навики: препознавање на pop-up измами, фишинг пораки, сомнителни апликации и пиратски софтвер.
 
 ---
 
-## Што е NetSafe Heroes?
+## 🕹️ Тек на играта (Gameplay Loop)
 
-NetSafe Heroes е едукативна 2D пиксел-арт игра во која играчот влегува во компјутерски систем и се бори против дигитални закани за да го обнови и заштити.
-
-Како што играчот напредува низ нивоата, се среќава со различни сајбер закани како што се рекламни програми, фишинг стапици, шпионски софтвер, тројански коњи и рансомвер. По секое ниво, играчот одговара на кратко квиз прашање дизајнирано да го зајакне знаењето за сајбер-безбедност и да помогне во создавање побезбедни интернет навики.
-
----
-
-## Тек на играта
-
-**Ниво → Стигни до крај → Квиз → Ажурирање на животи → Следно ниво / Крај на игра**
+```
+Ниво → Стигни до крај → Квиз → Ажурирање на животи → Следно ниво / Крај на игра
+```
 
 ### Главна механика: Квиз → Животи
 
 - ✅ Точен одговор: **+1 живот**
 - ❌ Неточен одговор: **-1 живот**
-- 💀 0 животи: **Играта завршува**
-
-Знаењето директно влијае на преживувањето и напредокот во играта.
+- 💀 0 животи: **Game Over**
 
 ---
 
-## Нивоа и закани
+## 🗺️ Нивоа и едукативна содржина
 
-| Ниво | Закана |
-| --- | --- |
-| **Pop-up Plaza** | Рекламен софтвер |
-| **Phishing Pits** | Фишинг стапици |
-| **Spyware Shadows** | Шпионски софтвер |
-| **Trojan Trickroom** | Тројански коњ |
-| **Ransomware Throne** | Рансомвер |
+| Ниво | Име | Сајбер закана | Едукативна цел |
+|------|-----|---------------|----------------|
+| 1 | Pop-Up Plaza | Adware (рекламен софтвер) | Препознавање на лажни pop-up пораки и реклами |
+| 2 | Phishing Pits | Phishing (фишинг стапици) | Идентификување на лажни е-пораки и линкови |
+| 3 | Spyware Shadows | Spyware (шпионски софтвер) | Разбирање на опасноста од непотребни дозволи за апликации |
+| 4 | Trojan Trickroom | Trojan Horse (тројански коњ) | Избегнување на пиратски софтвер и лажни инсталери |
+| 5 | Ransomware Throne | Ransomware (рансомвер) | Финален босс — рансомвер како најголема закана |
 
----
+### Примери квиз-прашања
 
-## Контроли
-
-- **Движење:** Arrow Keys (**↑ ↓ ← →**) или **W A S D**
-- **Скок:** **Space**
-- **Enter:** Потврда / затворање на панелите со прашања (кога се прикажани)
-- **Esc:** Мени за пауза
-- **Инфо / Правила:** Се прикажуваат посебно на секое ниво
+- **Ниво 1:** *Pop-up вели: „Освоивте бесплатен телефон! Кликнете тука!" — Што е најбезбедно?* → Затвори го pop-up/tab-от.
+- **Ниво 2:** *Добивате е-пошта: „Вашата сметка ќе се заклучи за 1 час." — Што проверувате прво?* → Кажете на родителите.
+- **Ниво 3:** *Апликација за фенерче бара пристап до контакти и микрофон.* → Одбиј дозвола / деинсталирај.
+- **Ниво 4:** *„Бесплатен крекиран инсталер" бара да го исклучите антивирусот.* → Не инсталирај; користи официјални извори.
 
 ---
 
-## Слики
+## 🖼️ Слики од играта
 
-![Gameplay Screenshot 1](images/screenshot1.png)
-![Gameplay Screenshot 2](images/screenshot2.png)
-![Gameplay Screenshot 3](images/screenshot3.png)
-![Gameplay Screenshot 4](images/screenshot4.png)
-![Gameplay Screenshot 5](images/screenshot5.png)
+| | |
+|---|---|
+| ![Screenshot 1](images/screenshot1.png) | ![Screenshot 2](images/screenshot2.png) |
+| ![Screenshot 3](images/screenshot3.png) | ![Screenshot 4](images/screenshot4.png) |
+| ![Screenshot 5](images/screenshot5.png) | |
 
 ---
 
-## Стартување од изворен код
+## 🎮 Контроли
 
-1. Инсталирај **Godot 4.5.x** (или компатибилна Godot 4 верзија)
-2. Отвори го проектниот фолдер во Godot
+| Акција | Копче |
+|--------|-------|
+| Движење | `← → ↑ ↓` или `W A S D` |
+| Скок | `Space` |
+| Потврда / затворање панел | `Enter` |
+| Инфо / Правила за ниво | `I` |
+| Пауза | `Esc` |
+
+---
+
+## 🛠️ Техничка реализација
+
+### Технологии
+
+- **Game Engine:** Godot 4.5 (GDScript)
+- **Рендерирање:** GL Compatibility (за максимална компатибилност)
+- **Резолуција:** 1280 × 720
+- **Deployment:** HTML5 web export (GitHub Pages)
+
+### Архитектура
+
+- **UI панели:** `DescriptionPanel` (едукативен опис на заканата), `QuestionPanel` (квиз по ниво), `PauseMenu`, `EndGamePanel`
+- **Game flow:** Level Scene → Exit Trigger → QuestionPanel → ±Life → Load Next Level / Game Over
+- **5 нивоа** со различни непријатели (slime, ghost, skull/boss) и механики (moving platforms, fall areas, diamonds за score)
+- **Pixel-art** визуелен стил прилагоден за младинска публика
+- **Звучни ефекти:** jump, collect, death + позадинска музика
+
+### Структура на проектот
+
+```
+NetSafeHeroes/
+├── docs/                          # Godot HTML5 web export (GitHub Pages)
+├── images/                        # README screenshots
+├── net_safe_heroes_game/
+│   └── net-safe-heroes/
+│       ├── assets/
+│       │   ├── fonts/             # Square-Black pixel font
+│       │   ├── images/            # Sprite sheets (player, enemies, tilemap, UI)
+│       │   └── sounds/            # SFX + background music
+│       ├── scenes/
+│       │   ├── levels/            # level_1.tscn – level_5.tscn
+│       │   ├── player.tscn
+│       │   ├── slime.tscn, ghost.tscn, skull.tscn
+│       │   └── main.tscn          # Root scene (HUD, quiz panels, descriptions)
+│       ├── scripts/               # GDScript game logic
+│       └── project.godot
+└── README.md
+```
+
+---
+
+## 🚀 Стартување од изворен код
+
+1. Инсталирај **[Godot 4.5.x](https://godotengine.org/download/)** (или компатибилна Godot 4 верзија)
+2. Отвори го фолдерот `net_safe_heroes_game/net-safe-heroes/` во Godot
 3. Притисни **Play (F5)**
 
 ---
 
-## Технички белешки
+## 👥 Автори
 
-- **Engine:** Godot 4 (GDScript)
-- **UI панели:** `DescriptionPanel` (инфо за ниво), `QuestionPanel` (квиз), `PauseMenu`
-- **Flow:** Ниво → Finish Trigger → Question Panel → +/- Life → Следно ниво / Game Over
+Проект изработен за предметот **ПНУВ** на **ФИНКИ — Универзитет „Св. Кирил и Методиј", Скопје**.
 
 ---
+
+## 📖 Поврзаност со HBSC теми
+
+| HBSC тема од задачата | Како ја адресира NetSafe Heroes |
+|---|---|
+| Дигитална благосостојба | Целата игра учи безбедно однесување на интернет |
+| Сајбер-булинг | Фишинг и онлајн измами се клучен дел од дигиталното малтретирање |
+| Баланс онлајн/офлајн | Квизовите поттикнуваат критичко размислување за онлајн активностите |
+| Здрави навики | Учење на навика за проверка пред клик, заштита на лични податоци |
+| Самодоверба | Играчот стекнува самодоверба преку совладување на дигиталните закани |
+
+---
+
+## 📄 Лиценца
+
+Проектот е достапен како open-source на GitHub.
